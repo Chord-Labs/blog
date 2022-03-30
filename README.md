@@ -22,3 +22,8 @@ yarn 过程中遇到的问题
 ```
 git config --global --add remote.origin.proxy ""
 ```
+
+git config --global --unset remote.origin.proxy
+git config --global remote.origin.proxy ""
+git config --global http.https://github.com.proxy "socks5://127.0.0.1:1081"
+git config --global https.https://github.com.proxy "socks5://127.0.0.1:1081"
