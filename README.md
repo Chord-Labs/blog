@@ -28,3 +28,11 @@ git config --global remote.origin.proxy ""
 git config --global http.https://github.com.proxy "socks5://127.0.0.1:1081"
 git config --global https.https://github.com.proxy "socks5://127.0.0.1:1081"
 ```
+
+nginx配置报错： connect() to 127.0.0.1:8080 failed (13: Permission denied) while connecting to upstream,
+
+
+运行以下的命令
+```
+setsebool -P httpd_can_network_connect 1
+```
