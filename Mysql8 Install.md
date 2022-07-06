@@ -9,7 +9,7 @@ MySQL社区版下载页面：https://dev.mysql.com/downloads/mysql/
 
 ### 2.MySQL社区相关产品介绍  
 MySQL Community Server  
-  最流行的开源数据库管理软件，当前最新版本是5.7  
+  最流行的开源数据库管理软件，当前最新版本是8
 MySQL Cluster  
   基于MySQL数据库而实现的集群服务，自身能提供高并发高负载等特性  
 MySQL Fabric  
